@@ -1,6 +1,6 @@
-# 2110479 Computer Graphic
+# 2110479 Computer Graphics
 
-The repository contains the code for the assignments of the course 2110479 Computer Graphic at Chulalongkorn University.
+The repository contains the code for the assignments of the course 2110479 Computer Graphics at Chulalongkorn University.
 
 ## Course Material
 
