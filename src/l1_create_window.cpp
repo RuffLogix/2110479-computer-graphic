@@ -1,6 +1,9 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
+const unsigned WINDOW_WIDTH = 800;
+const unsigned WINDOW_HEIGHT = 600;
+
 int main() {
     // Initialize GLFW
     glfwInit();
@@ -11,7 +14,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     // Create a window
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Hello OpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Hello OpenGL", NULL, NULL);
     if (!window) {
         std::cout << "Fail to create GLFW window\n";
         glfwTerminate();
